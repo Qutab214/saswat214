@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Qutab/IdeaProjects/selenium_frameworks/mmt/src/test/java/testCases/HomePageTest.java">
+        <classes>
+            <class name="testCases.HomePageTest">
+                <methods>
+                    <include name="selectOneWay"/>
+                </methods>
+            </class>
+            <class name="testCases.LoginBoxTest"></class>
+        </classes>
+    </test>
+</suite>
